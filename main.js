@@ -75,7 +75,7 @@ document.getElementById("submit").addEventListener("click", function () {
         span.innerHTML = ""
     }
     // check Errors
-    if (id === "" || isNaN(Number(id))) {
+    if (id === "" || isNaN(Number(id)) || id.length > 14 || id.length < 14) {
         result.style.display = 'none';
         error.style.display = "block";
         error.innerHTML = "Error: Invalid ID!! please try again.";
