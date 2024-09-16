@@ -1,2 +1,2 @@
 # Egyptian-National-ID
-Retrieve personal information from an Egyptian national ID
+Simple app retrieves personal information from an Egyptian national ID
